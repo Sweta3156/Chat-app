@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
-import { useAuth } from "../src/context/AuthContext";
-import { useSocket } from "../src/context/SocketContext";
+import { useAuth } from "../context/AuthContext";
+import { useSocket } from "../context/SocketContext";
 
 const Avatar = ({ name, size = 36 }) => {
   const colors = ["#7c6aff", "#4ade80", "#f59e0b", "#f43f5e", "#06b6d4"];
