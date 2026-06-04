@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import axios from "axios";
-import { useAuth } from "../src/context/authContext";
+import { useAuth } from "../src/context/AuthContext";
 import { useSocket } from "../src/context/SocketContext";
 
 const Avatar = ({ name, size = 32 }) => {
