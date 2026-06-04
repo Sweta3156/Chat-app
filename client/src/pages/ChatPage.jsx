@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import Sidebar from "../../components/SideBar";
+import Sidebar from "../../components/Sidebar";
 import ChatWindow from "../../components/ChatWindow";
 import { useAuth } from "../context/AuthContext";
 
